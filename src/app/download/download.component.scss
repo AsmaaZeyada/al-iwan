@@ -1,0 +1,150 @@
+.card{
+  display: flex;
+  flex-direction: row-reverse;
+ margin-top: 5rem;
+ color: #FFFFFF;
+background-image:url(/assets/images/download/mobile.png);
+}
+.card-body{
+  padding: 100px;
+}
+.icons1{
+  display: flex;
+  width: 70%;
+  text-align: right;
+  margin-bottom: 1rem;
+  margin-left: 5rem;
+}
+.icon1{
+width:50%;
+}
+.i{
+  text-align: right;
+  width: 33rem;
+  margin-right: -4.5rem;
+  padding: 1rem;
+}
+.img5{
+  width:50%;
+  padding:50px;
+}
+.img55{
+  width: 100%;
+  margin-top: -.3rem;
+}
+.title{
+  width: 90%;
+  margin-bottom: 2rem;
+  text-align: right;
+  margin-left: 6rem;
+}
+.title2{
+  font-family: 'Nunito';
+ font-style: normal;
+ font-weight: 200;
+ font-size: 50px;
+ line-height: 70px;
+}
+.icon2{
+  width: 50%;
+  margin-top: 1rem;
+}
+.p{
+  font-family: 'DIN Next LT Arabic';
+font-style: normal;
+font-weight: 500;
+font-size: 20.4px;
+line-height: 30px;
+}
+.p2{
+font-family: 'DIN Next LT Arabic';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+color: #FFFFFF;
+margin-top: -.9rem;
+
+}
+.pic_btn{
+display: flex;
+width: 100%;
+justify-content: center;
+justify-content: space-evenly;
+}
+ .pic2{
+  display: flex;
+  width: 8rem;
+}
+.pic3{
+  display: flex;
+  width:8rem;;
+}
+@media  screen and (max-width: 768px) {
+
+  html{font-size: 10px;
+  }
+  .card{
+      display: flex;
+      flex-direction: column;
+      margin-top:4rem;
+  }
+  .card-body{
+      order: 1;
+  }
+  .img5{
+      order: 2;
+      margin-left: 7rem;
+      width: 90%;
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+  }
+  .title2{
+      font-family: 'DIN Next LT Arabic';
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 75px;
+color: #FFFFFF;
+  }
+  .title3{
+      font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 35px;
+color: rgba(255, 255, 255, 0.82);
+  }
+
+  .icons1{
+      margin-left: 12.5rem;
+      margin-bottom: 3rem;
+
+  }
+  .icons2{
+    width:50%;
+  }
+  .title{
+      margin-left: 12rem;
+  }
+  .pic1{
+      display: none;
+  }
+  .pic2{
+width: 15rem;
+margin-left: 6rem;
+  }
+  .pic3{
+      width: 15rem;
+      margin-left: 2rem;
+  }
+  .p2{
+      width: 100%;
+font-family: 'DIN Next LT Arabic';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+color: #FFFFFF;
+  }
+}
