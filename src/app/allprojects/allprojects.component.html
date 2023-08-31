@@ -1,0 +1,20 @@
+<div class="img2">
+  <img class="img22" src="/assets/images/allprojects/imggg.png" />
+  <div class="textt">
+    <div class="txt11">
+      <h2 class="text-light text1">المشــــــاريع</h2>
+    </div>
+  </div>
+</div>
+
+<div class="container my-5">
+  <div class="row gy-3">
+    <div [routerLink]="item?.id" *ngFor="let item of projects" class="col-md-4 ">
+      <div class="mycards shadow rounded bg-white">
+        <img loading="lazy" class="img-fluid" [src]="srcImage + item?.path" [alt]="item?.title" />
+        <h4 class="text-center my-2">{{ item?.title }}</h4>
+      </div>
+    </div>
+  </div>
+</div>
+

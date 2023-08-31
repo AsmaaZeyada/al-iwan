@@ -1,0 +1,46 @@
+<div class="services">
+  <app-image-content
+    *ngFor="let ietm of items"
+    [labelTitle]="ietm.title"
+    [labelContent]="ietm.desc"
+    [isImageFirst]="ietm.first"
+    [srcImage]="ietm.iamge"
+    [classDirection]="ietm.direc"
+    [custmClass]="ietm.class"
+  ></app-image-content>
+  <!-- <app-image-content
+    [labelTitle]="'التصميم المعمارى'"
+    [labelContent]="
+      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis quis enim asperiores quia expedita quam adipisci repellat assumenda doloribus omnis.'
+    "
+    [isImageFirst]="false"
+    [srcImage]="'../../../../assets/images/services/one.png'"
+  ></app-image-content> -->
+  <!-- <app-image-content
+    [labelTitle]="'التصميم المعمارى'"
+    [labelContent]="
+      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis quis enim asperiores quia expedita quam adipisci repellat assumenda doloribus omnis.'
+    "
+    [isImageFirst]="true"
+    [srcImage]="'../../../../assets/images/services/two.png'"
+    [classDirection]="'flex-row'"
+  ></app-image-content> -->
+  <!-- <app-image-content
+    [labelTitle]="'التصميم المعمارى'"
+    [labelContent]="
+      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis quis enim asperiores quia expedita quam adipisci repellat assumenda doloribus omnis.'
+    "
+    [isImageFirst]="false"
+    [srcImage]="'../../../../assets/images/services/three.png'"
+    [classDirection]="'flex-row-reverse'"
+  ></app-image-content>
+  <app-image-content
+    [labelTitle]="'التصميم المعمارى'"
+    [labelContent]="
+      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis quis enim asperiores quia expedita quam adipisci repellat assumenda doloribus omnis.'
+    "
+    [isImageFirst]="true"
+    [srcImage]="'../../../../assets/images/services/four.png'"
+    [classDirection]="'flex-row'"
+  ></app-image-content> -->
+</div>

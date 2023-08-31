@@ -1,0 +1,67 @@
+body {
+  font-family: "Tajawal", sans-serif;
+  font-family: "El Messiri", sans-serif;
+  font-family: "Cairo", sans-serif;
+}
+.img2 {
+  position: relative;
+}
+.img22 {
+  width: 100%;
+}
+body{
+  background-color: #18191b;
+}
+.textt{
+  display: flex;
+  position: absolute;
+  top: 50%;
+}
+
+.text11 {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 32px;
+}
+
+.txt11 {
+  position: absolute;
+  left: 65rem;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+
+  .img22 {
+    background-image: url("/imgs/image\ web\ 1.png");
+    height: 15rem;
+  }
+  .txt11 {
+    width: 20%;
+    margin-left: -55rem;
+  }
+.mycards {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.mycards .mycard {
+    width: 20%;
+}
+
+@media  screen and (max-width: 768px) {
+  .mycards .mycard {
+    width: 100%;
+}
+
+.mycards{
+  width:100%;
+}
+}}
