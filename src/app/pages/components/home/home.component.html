@@ -8,8 +8,8 @@
       />
       <div class="content text-center">
         <p>مرحبا بكـــــــــــــــــــــــــــ في</p>
-        <h1>الإيـــــــــــــــــوان</h1>
-        <button (click)="fun()" [routerLink]="['services']" class="btn-home">
+        <h1>قمة | Qimma</h1>
+        <button  [routerLink]="['/allprojects']" class="btn-home">
           <i class="fa-solid fa-arrow-left-long mx-2 arrpw-icon"></i>
           أستعرض مشاريعنا
         </button>
@@ -22,7 +22,7 @@
           <h5>{{ slide.headTitle }}</h5>
           <h3 class="my-3">{{ slide.title }}</h3>
           <p>{{ slide.description }}</p>
-          <button (click)="fun()" [routerLink]="['services']" class="btn-home">
+          <button [routerLink]="['/allprojects']" class="btn-home">
             <i class="fa-solid fa-arrow-left-long mx-2 arrpw-icon"></i>
             أستعرض مشاريعنا
           </button>
